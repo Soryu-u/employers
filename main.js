@@ -1,10 +1,10 @@
 const { Pool } = require("pg");
 const pool = new Pool({
-  user: "szpaku",
-  password: "Windranger123",
+  user: "<username>",
+  password: "<password>",
   host: "localhost",
   post: 5432,
-  database: "incamp",
+  database: "<bd_name>",
 });
 
 const monthName = [
